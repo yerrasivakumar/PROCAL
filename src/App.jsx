@@ -177,7 +177,17 @@ const App = () => {
 
   return (
    <>
-    <Card sx={{ width: '100%', maxWidth: 800, margin: 'auto',backgroundColor:"white",marginTop:'2rem' }}>
+    <Card 
+    sx={{
+      width: '100%',
+      maxWidth: 800,
+      margin: 'auto',
+      backgroundColor: 'white',
+      marginTop: '2rem',
+      boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.2)', // Custom shadow for added depth
+      borderRadius: 2,
+    }}
+    elevation={3} >
       <CardHeader
         sx={{
           display: 'flex',
